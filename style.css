@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(110, 107, 107);
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+img {
+    width: 50%; 
+    max-width: 300px;
+    height: auto; 
+    margin: 20px auto; 
+    display: block;
+}
+
+.video-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    max-width: 80%;
+    height: 500px;
+    border: none;
+    display: block;
+}
